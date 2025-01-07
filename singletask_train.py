@@ -7,13 +7,13 @@ from tqdm import tqdm
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 #模型和数据集
-from model.singletask_unet import model
+from model.singletask_resnet50 import model
 from dataset.dataset_covid import covid_train_dataset,covid_val_dataset
 
 
 # 数据加载器
-batchsizes=16
-epochs=4
+batchsizes=32
+epochs=300
 
 train_loader = DataLoader(covid_train_dataset, batch_size=batchsizes, shuffle=True)
 val_loader = DataLoader(covid_val_dataset, batch_size=batchsizes, shuffle=False)
