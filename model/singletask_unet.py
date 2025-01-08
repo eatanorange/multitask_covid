@@ -88,12 +88,12 @@ class UNet(nn.Module):
         self.down3 = (Down(256, 512))
         factor = 2 if bilinear else 1
         self.down4 = (Down(512, 1024 // factor))
-        self.classifier_rsna= nn.Sequential(nn.AdaptiveAvgPool2d((7,7)),
+        self.classifier_rsna= nn.Sequential(nn.AdaptiveAvgPool2d((1,1)),
                                         nn.Flatten(),
-                                        nn.Linear(50176, n_classes))
-        self.classifier_covid= nn.Sequential(nn.AdaptiveAvgPool2d((7,7)),
+                                        nn.Linear(2048, n_classes))
+        self.classifier_covid= nn.Sequential(nn.AdaptiveAvgPool2d((1,1)),
                                         nn.Flatten(),
-                                        nn.Linear(50176, n_classes))
+                                        nn.Linear(2048, n_classes))
         self.up1 = (Up(1024, 512 // factor, bilinear))
         self.up2 = (Up(512, 256 // factor, bilinear))
         self.up3 = (Up(256, 128 // factor, bilinear))

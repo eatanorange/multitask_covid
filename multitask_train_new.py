@@ -133,9 +133,10 @@ def train_rsna_model(model,train_loader, val_loader,criterion, optimizer, num_ep
     all_preds = []
     all_labels = []
     with torch.no_grad():
-        for inputs, labels in tqdm(val_loader, desc=f'val'):
+        for inputs, labels,masks in tqdm(val_loader, desc=f'val'):
             inputs=inputs.cuda()
             labels=labels.cuda()
+            masks=masks.cuda()
             outputs,outputs_seg,_ = model(inputs)###################################改这里
             loss1 = criterion(outputs, labels)
             loss2 = criterion(outputs_seg, masks)

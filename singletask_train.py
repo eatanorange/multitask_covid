@@ -7,7 +7,7 @@ from tqdm import tqdm
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 #模型和数据集
-from model.singletask_resnet50 import model
+from model.singletask_resunet import model
 from dataset.dataset_covid import covid_train_dataset,covid_val_dataset
 
 

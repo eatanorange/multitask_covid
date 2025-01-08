@@ -115,28 +115,37 @@ class ResNet50UNet(nn.Module):
         self.resnet = nn.Sequential(*list(self.resnet.children())[:-2])
 
         # Encoder layers
-        self.encoder1 = self.resnet[:3]  # First two layers of ResNet50
-        self.encoder2 = self.resnet[3:5]  # Third and fourth layers of ResNet50
+        self.encoder1 = self.resnet[:4]  # First two layers of ResNet50
+        self.encoder2 = self.resnet[4]  # Third and fourth layers of ResNet50
         self.encoder3 = self.resnet[5]  # Fifth layer of ResNet50
-        self.encoder4 = self.resnet[6]  # Sixth layer of ResNet50
+        self.encoder4 = self.resnet[6]
+        self.encoder5 = self.resnet[7]  # Sixth layer of ResNet50
+
+        self.smlp_block1 = sMLPBlock(W=56, H=56, channels=64)
+        self.smlp_block2 = sMLPBlock(W=56, H=56, channels=256)
+        self.smlp_block3 = sMLPBlock(W=28, H=28, channels=512)
+        self.smlp_block4 = sMLPBlock(W=14, H=14, channels=1024)
+        self.smlp_block5 = sMLPBlock(W=7, H=7, channels=2048)
         factor = 2 if bilinear else 1
-        self.classifier_rsna= nn.Sequential(nn.AdaptiveAvgPool2d((7,7)),
+        self.classifier_rsna= nn.Sequential(nn.AdaptiveAvgPool2d((1,1)),
                                         nn.Flatten(),
-                                        nn.Linear(50176, n_classes))
-        self.classifier_covid= nn.Sequential(nn.AdaptiveAvgPool2d((7,7)),
+                                        nn.Linear(2048, n_classes))
+        self.classifier_covid= nn.Sequential(nn.AdaptiveAvgPool2d((1,1)),
                                         nn.Flatten(),
-                                        nn.Linear(50176, n_classes))
-        self.sMLPBlock1 = sMLPBlock(112, 112, 64)
-        self.sMLPBlock2 = sMLPBlock(56, 56, 256)
-        self.sMLPBlock3 = sMLPBlock(28, 28, 512)
-        self.sMLPBlock4 = sMLPBlock(14, 14, 1024)
+                                        nn.Linear(2048, n_classes))
         
         # Decoder layers
-        self.up1 = (Up(1024, 512 // factor, bilinear))
-        self.up2 = (Up(512, 256 // factor, bilinear))
-        self.c = nn.Conv2d(64, 128, kernel_size=1, stride=1, padding=0)
-        self.up3 = (Up(256, 128 // factor, bilinear))
-        self.up4 =  nn.Sequential(
+        self.up1 = (Up(2048, 1024 // factor, bilinear))
+        self.up2 = (Up(1024, 512 // factor, bilinear))
+        self.up3 = (Up(512, 256 // factor, bilinear))
+        
+        self.up4 = nn.Sequential(
+            nn.Conv2d(kernel_size=(3, 3), in_channels=256, out_channels=128, padding=1),
+            nn.ReLU(),
+            nn.BatchNorm2d(128),
+            nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
+        )
+        self.up5 =  nn.Sequential(
             nn.Conv2d(kernel_size=(3, 3), in_channels=128, out_channels=64, padding=1),
             nn.ReLU(),
             nn.BatchNorm2d(64),
@@ -147,22 +156,25 @@ class ResNet50UNet(nn.Module):
     def forward(self, x):
         # Encoder
         x1 = self.encoder1(x)
-        x1 = self.sMLPBlock1(x1)
+        x1 = self.smlp_block1(x1)
         x2 = self.encoder2(x1)
-        x2 = self.sMLPBlock2(x2)
+        x2 = self.smlp_block2(x2)
         x3 = self.encoder3(x2)
-        x3 = self.sMLPBlock3(x3)
+        x3 = self.smlp_block3(x3)
         x4 = self.encoder4(x3)
-        x4 = self.sMLPBlock4(x4)
-        classify_rsna = self.classifier_rsna(x4)
-        classify_covid = self.classifier_covid(x4)
+        x4 = self.smlp_block4(x4)
+        x5 = self.encoder5(x4)
+        x5 = self.smlp_block5(x5)
+        classify_rsna = self.classifier_rsna(x5)
+        classify_covid = self.classifier_covid(x5)
         # Decoder
 
-        x = self.up1(x4, x3)
-        x = self.up2(x, x2)
-        xx = self.c(x1)
-        x = self.up3(x, xx)
+        x = self.up1(x5, x4)
+        x = self.up2(x, x3)
+        x = self.up3(x, x2)
+        
         x = self.up4(x)
+        x = self.up5(x)
         
      
         segment = self.outc(x)

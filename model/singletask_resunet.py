@@ -95,19 +95,19 @@ class ResNet50UNet(nn.Module):
         self.resnet = nn.Sequential(*list(self.resnet.children())[:-2])
 
         # Encoder layers
-        self.encoder1 = self.resnet[:3]  # First two layers of ResNet50
-        self.encoder2 = self.resnet[3:5]  # Third and fourth layers of ResNet50
+        self.encoder1 = self.resnet[:4]  # First two layers of ResNet50
+        self.encoder2 = self.resnet[4]  # Third and fourth layers of ResNet50
         self.encoder3 = self.resnet[5]  # Fifth layer of ResNet50
         self.encoder4 = self.resnet[6]
         self.encoder5 = self.resnet[7]  # Sixth layer of ResNet50
         factor = 2 if bilinear else 1
         self.classifier_rsna= nn.Sequential(nn.AdaptiveAvgPool2d((1,1)),
                                         nn.Flatten(),
-                                        nn.Linear(1024, n_classes),
+                                        nn.Linear(2048, n_classes),
                                         nn.LogSoftmax(dim=1))
         self.classifier_covid= nn.Sequential(nn.AdaptiveAvgPool2d((1,1)),
                                         nn.Flatten(),
-                                        nn.Linear(1024, n_classes),
+                                        nn.Linear(2048, n_classes),
                                         nn.LogSoftmax(dim=1))
 
         # Decoder layers
