@@ -60,6 +60,27 @@ val Loss: 1.0863 - val Accuracy: 0.7273 - val Precision: 0.7300 - val Recall: 0.
 
 #### 改线性层
 
+--------------------------------------------------
+Epoch 84/300:
+train Loss: 0.0044 - Accuracy: 0.9970 - Precision: 0.9970 - Recall: 0.9970 - F1 Score: 0.9970
+
+val Loss: 1.7829 - val Accuracy: 0.7455 - val Precision: 0.7513 - val Recall: 0.7455 - val F1 Score: 0.7474
+
+Epoch 85/300:
+train Loss: 0.0045 - Accuracy: 0.9960 - Precision: 0.9960 - Recall: 0.9960 - F1 Score: 0.9960
+
+val Loss: 1.8284 - val Accuracy: 0.7545 - val Precision: 0.7557 - val Recall: 0.7545 - val F1 Score: 0.7551
+
+Epoch 86/300
+train Loss: 0.0044 - Accuracy: 0.9960 - Precision: 0.9960 - Recall: 0.9960 - F1 Score: 0.9960
+
+val Loss: 1.8438 - val Accuracy: 0.7455 - val Precision: 0.7551 - val Recall: 0.7455 - val F1 Score: 0.7481
+
+Epoch 87/300
+train Loss: 0.0045 - Accuracy: 0.9960 - Precision: 0.9960 - Recall: 0.9960 - F1 Score: 0.9960
+
+val Loss: 1.7791 - val Accuracy: 0.7545 - val Precision: 0.7586 - val Recall: 0.7545 - val F1 Score: 0.7560
+
 #### 数据增强，改线性层
 
 #### 加上dropout
