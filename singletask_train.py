@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 #模型和数据集
 from model.singletask_resunet import model
-from dataset.dataset_covid import covid_train_dataset,covid_val_dataset
+from dataset_covid import covid_train_dataset,covid_val_dataset
 
 
 # 数据加载器
@@ -21,7 +21,7 @@ val_loader = DataLoader(covid_val_dataset, batch_size=batchsizes, shuffle=False)
 # 损失函数和优化器
 criterion = nn.CrossEntropyLoss()
 criterion.cuda()
-optimizer = optim.SGD(model.parameters(), lr=0.0001, momentum=0.9,weight_decay=0.0001)
+optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
 # 训练函数
 Writer = SummaryWriter(log_dir='runs/covid_experiment')
