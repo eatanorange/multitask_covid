@@ -13,7 +13,7 @@ from dataset.dataset_rsna import rsna_train_dataset,rsna_val_dataset
 
 # 数据加载器
 batchsizes=16
-epochs=4
+epochs=300
 
 covid_train_dataloader = DataLoader(covid_train_dataset, batch_size=batchsizes, shuffle=True)
 covid_val_dataloader = DataLoader(covid_val_dataset, batch_size=batchsizes, shuffle=False)
