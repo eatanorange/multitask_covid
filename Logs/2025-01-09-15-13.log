@@ -1,0 +1,702 @@
+2025-01-09 15:13:02,509 INFO: 数据增强，resnet最后的线性层改了一下，adam0.0001，做完这个就做adam调参 
+2025-01-09 15:13:03,815 INFO: *****Epoch 1 train***** 
+2025-01-09 15:15:05,804 INFO: train Loss: 0.6957 - Accuracy: 0.5283 - Precision: 0.5282 - Recall: 0.5283 - F1 Score: 0.5282 
+2025-01-09 15:15:12,619 INFO: val Loss: 0.6742 - val Accuracy: 0.6182 - val Precision: 0.5744 - val Recall: 0.6182 - val F1 Score: 0.4880 
+2025-01-09 15:15:12,891 INFO: Best model saved with accuracy: 0.6182 
+2025-01-09 15:15:13,066 INFO: -------------------------------------------------- 
+2025-01-09 15:15:13,068 INFO: *****Epoch 2 train***** 
+2025-01-09 15:17:15,550 INFO: train Loss: 0.6906 - Accuracy: 0.5515 - Precision: 0.5515 - Recall: 0.5515 - F1 Score: 0.5514 
+2025-01-09 15:17:22,346 INFO: val Loss: 0.6394 - val Accuracy: 0.6091 - val Precision: 0.5086 - val Recall: 0.6091 - val F1 Score: 0.4833 
+2025-01-09 15:17:22,523 INFO: Best model saved with accuracy: 0.6091 
+2025-01-09 15:17:22,675 INFO: -------------------------------------------------- 
+2025-01-09 15:17:22,678 INFO: *****Epoch 3 train***** 
+2025-01-09 15:19:25,089 INFO: train Loss: 0.6758 - Accuracy: 0.5677 - Precision: 0.5687 - Recall: 0.5677 - F1 Score: 0.5668 
+2025-01-09 15:19:31,879 INFO: val Loss: 0.6506 - val Accuracy: 0.6455 - val Precision: 0.6280 - val Recall: 0.6455 - val F1 Score: 0.6101 
+2025-01-09 15:19:32,094 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 15:19:32,244 INFO: -------------------------------------------------- 
+2025-01-09 15:19:32,247 INFO: *****Epoch 4 train***** 
+2025-01-09 15:21:35,078 INFO: train Loss: 0.6718 - Accuracy: 0.5768 - Precision: 0.5799 - Recall: 0.5768 - F1 Score: 0.5712 
+2025-01-09 15:21:41,941 INFO: val Loss: 0.6508 - val Accuracy: 0.6545 - val Precision: 0.6545 - val Recall: 0.6545 - val F1 Score: 0.6545 
+2025-01-09 15:21:42,109 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 15:21:42,257 INFO: -------------------------------------------------- 
+2025-01-09 15:21:42,259 INFO: *****Epoch 5 train***** 
+2025-01-09 15:23:44,974 INFO: train Loss: 0.6692 - Accuracy: 0.6040 - Precision: 0.6060 - Recall: 0.6040 - F1 Score: 0.6028 
+2025-01-09 15:23:51,735 INFO: val Loss: 0.6414 - val Accuracy: 0.6000 - val Precision: 0.5500 - val Recall: 0.6000 - val F1 Score: 0.5341 
+2025-01-09 15:23:51,906 INFO: Best model saved with accuracy: 0.6000 
+2025-01-09 15:23:52,059 INFO: -------------------------------------------------- 
+2025-01-09 15:23:52,061 INFO: *****Epoch 6 train***** 
+2025-01-09 15:25:55,819 INFO: train Loss: 0.6589 - Accuracy: 0.6162 - Precision: 0.6176 - Recall: 0.6162 - F1 Score: 0.6154 
+2025-01-09 15:26:02,599 INFO: val Loss: 0.6232 - val Accuracy: 0.6545 - val Precision: 0.6404 - val Recall: 0.6545 - val F1 Score: 0.6361 
+2025-01-09 15:26:02,773 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 15:26:02,926 INFO: -------------------------------------------------- 
+2025-01-09 15:26:02,928 INFO: *****Epoch 7 train***** 
+2025-01-09 15:28:05,316 INFO: train Loss: 0.6479 - Accuracy: 0.6343 - Precision: 0.6344 - Recall: 0.6343 - F1 Score: 0.6342 
+2025-01-09 15:28:12,162 INFO: val Loss: 0.6211 - val Accuracy: 0.6182 - val Precision: 0.6148 - val Recall: 0.6182 - val F1 Score: 0.6163 
+2025-01-09 15:28:12,391 INFO: Best model saved with accuracy: 0.6182 
+2025-01-09 15:28:12,540 INFO: -------------------------------------------------- 
+2025-01-09 15:28:12,543 INFO: *****Epoch 8 train***** 
+2025-01-09 15:30:15,106 INFO: train Loss: 0.6403 - Accuracy: 0.6384 - Precision: 0.6392 - Recall: 0.6384 - F1 Score: 0.6381 
+2025-01-09 15:30:21,770 INFO: val Loss: 0.6304 - val Accuracy: 0.6545 - val Precision: 0.7135 - val Recall: 0.6545 - val F1 Score: 0.6571 
+2025-01-09 15:30:21,940 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 15:30:22,088 INFO: -------------------------------------------------- 
+2025-01-09 15:30:22,090 INFO: *****Epoch 9 train***** 
+2025-01-09 15:32:24,853 INFO: train Loss: 0.6320 - Accuracy: 0.6374 - Precision: 0.6375 - Recall: 0.6374 - F1 Score: 0.6374 
+2025-01-09 15:32:31,584 INFO: val Loss: 0.6168 - val Accuracy: 0.6727 - val Precision: 0.6794 - val Recall: 0.6727 - val F1 Score: 0.6752 
+2025-01-09 15:32:31,756 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 15:32:31,912 INFO: -------------------------------------------------- 
+2025-01-09 15:32:31,914 INFO: *****Epoch 10 train***** 
+2025-01-09 15:34:34,202 INFO: train Loss: 0.6266 - Accuracy: 0.6667 - Precision: 0.6688 - Recall: 0.6667 - F1 Score: 0.6659 
+2025-01-09 15:34:40,925 INFO: val Loss: 0.5885 - val Accuracy: 0.6727 - val Precision: 0.6655 - val Recall: 0.6727 - val F1 Score: 0.6671 
+2025-01-09 15:34:41,102 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 15:34:41,250 INFO: -------------------------------------------------- 
+2025-01-09 15:34:41,252 INFO: *****Epoch 11 train***** 
+2025-01-09 15:36:43,396 INFO: train Loss: 0.6383 - Accuracy: 0.6394 - Precision: 0.6394 - Recall: 0.6394 - F1 Score: 0.6394 
+2025-01-09 15:36:50,011 INFO: val Loss: 0.5676 - val Accuracy: 0.7182 - val Precision: 0.7195 - val Recall: 0.7182 - val F1 Score: 0.7188 
+2025-01-09 15:36:50,187 INFO: Best model saved with accuracy: 0.7182 
+2025-01-09 15:36:50,359 INFO: -------------------------------------------------- 
+2025-01-09 15:36:50,361 INFO: *****Epoch 12 train***** 
+2025-01-09 15:38:51,715 INFO: train Loss: 0.6210 - Accuracy: 0.6495 - Precision: 0.6511 - Recall: 0.6495 - F1 Score: 0.6488 
+2025-01-09 15:38:58,253 INFO: val Loss: 0.5810 - val Accuracy: 0.6818 - val Precision: 0.6735 - val Recall: 0.6818 - val F1 Score: 0.6591 
+2025-01-09 15:38:58,467 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 15:38:58,615 INFO: -------------------------------------------------- 
+2025-01-09 15:38:58,617 INFO: *****Epoch 13 train***** 
+2025-01-09 15:41:00,508 INFO: train Loss: 0.6131 - Accuracy: 0.6556 - Precision: 0.6557 - Recall: 0.6556 - F1 Score: 0.6556 
+2025-01-09 15:41:07,151 INFO: val Loss: 0.5944 - val Accuracy: 0.7000 - val Precision: 0.7014 - val Recall: 0.7000 - val F1 Score: 0.7007 
+2025-01-09 15:41:07,333 INFO: Best model saved with accuracy: 0.7000 
+2025-01-09 15:41:07,479 INFO: -------------------------------------------------- 
+2025-01-09 15:41:07,482 INFO: *****Epoch 14 train***** 
+2025-01-09 15:43:09,656 INFO: train Loss: 0.6090 - Accuracy: 0.6646 - Precision: 0.6648 - Recall: 0.6646 - F1 Score: 0.6646 
+2025-01-09 15:43:16,321 INFO: val Loss: 0.5712 - val Accuracy: 0.6818 - val Precision: 0.6724 - val Recall: 0.6818 - val F1 Score: 0.6630 
+2025-01-09 15:43:16,502 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 15:43:16,651 INFO: -------------------------------------------------- 
+2025-01-09 15:43:16,654 INFO: *****Epoch 15 train***** 
+2025-01-09 15:45:17,443 INFO: train Loss: 0.6040 - Accuracy: 0.6707 - Precision: 0.6709 - Recall: 0.6707 - F1 Score: 0.6705 
+2025-01-09 15:45:24,135 INFO: val Loss: 0.6098 - val Accuracy: 0.6364 - val Precision: 0.6566 - val Recall: 0.6364 - val F1 Score: 0.6413 
+2025-01-09 15:45:24,317 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 15:45:24,466 INFO: -------------------------------------------------- 
+2025-01-09 15:45:24,469 INFO: *****Epoch 16 train***** 
+2025-01-09 15:47:26,373 INFO: train Loss: 0.6043 - Accuracy: 0.6848 - Precision: 0.6856 - Recall: 0.6848 - F1 Score: 0.6847 
+2025-01-09 15:47:33,001 INFO: val Loss: 0.6168 - val Accuracy: 0.6636 - val Precision: 0.6594 - val Recall: 0.6636 - val F1 Score: 0.6610 
+2025-01-09 15:47:33,179 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 15:47:33,331 INFO: -------------------------------------------------- 
+2025-01-09 15:47:33,333 INFO: *****Epoch 17 train***** 
+2025-01-09 15:49:34,957 INFO: train Loss: 0.6122 - Accuracy: 0.6646 - Precision: 0.6648 - Recall: 0.6646 - F1 Score: 0.6645 
+2025-01-09 15:49:41,756 INFO: val Loss: 0.6066 - val Accuracy: 0.6545 - val Precision: 0.6489 - val Recall: 0.6545 - val F1 Score: 0.6508 
+2025-01-09 15:49:41,930 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 15:49:42,080 INFO: -------------------------------------------------- 
+2025-01-09 15:49:42,082 INFO: *****Epoch 18 train***** 
+2025-01-09 15:51:43,290 INFO: train Loss: 0.6029 - Accuracy: 0.6778 - Precision: 0.6779 - Recall: 0.6778 - F1 Score: 0.6776 
+2025-01-09 15:51:49,950 INFO: val Loss: 0.5715 - val Accuracy: 0.6727 - val Precision: 0.6878 - val Recall: 0.6727 - val F1 Score: 0.6767 
+2025-01-09 15:51:50,118 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 15:51:50,268 INFO: -------------------------------------------------- 
+2025-01-09 15:51:50,270 INFO: *****Epoch 19 train***** 
+2025-01-09 15:53:52,480 INFO: train Loss: 0.5977 - Accuracy: 0.6798 - Precision: 0.6800 - Recall: 0.6798 - F1 Score: 0.6798 
+2025-01-09 15:53:59,135 INFO: val Loss: 0.6226 - val Accuracy: 0.6455 - val Precision: 0.7170 - val Recall: 0.6455 - val F1 Score: 0.6462 
+2025-01-09 15:53:59,316 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 15:53:59,471 INFO: -------------------------------------------------- 
+2025-01-09 15:53:59,473 INFO: *****Epoch 20 train***** 
+2025-01-09 15:56:00,801 INFO: train Loss: 0.5941 - Accuracy: 0.6929 - Precision: 0.6948 - Recall: 0.6929 - F1 Score: 0.6924 
+2025-01-09 15:56:07,453 INFO: val Loss: 0.5996 - val Accuracy: 0.6909 - val Precision: 0.6909 - val Recall: 0.6909 - val F1 Score: 0.6909 
+2025-01-09 15:56:07,635 INFO: Best model saved with accuracy: 0.6909 
+2025-01-09 15:56:07,789 INFO: -------------------------------------------------- 
+2025-01-09 15:56:07,791 INFO: *****Epoch 21 train***** 
+2025-01-09 15:58:09,989 INFO: train Loss: 0.5778 - Accuracy: 0.6859 - Precision: 0.6866 - Recall: 0.6859 - F1 Score: 0.6854 
+2025-01-09 15:58:16,786 INFO: val Loss: 0.5958 - val Accuracy: 0.6364 - val Precision: 0.6519 - val Recall: 0.6364 - val F1 Score: 0.6408 
+2025-01-09 15:58:16,954 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 15:58:17,105 INFO: -------------------------------------------------- 
+2025-01-09 15:58:17,107 INFO: *****Epoch 22 train***** 
+2025-01-09 16:00:19,149 INFO: train Loss: 0.6003 - Accuracy: 0.6717 - Precision: 0.6718 - Recall: 0.6717 - F1 Score: 0.6717 
+2025-01-09 16:00:25,797 INFO: val Loss: 0.5819 - val Accuracy: 0.6818 - val Precision: 0.6758 - val Recall: 0.6818 - val F1 Score: 0.6774 
+2025-01-09 16:00:25,976 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 16:00:26,124 INFO: -------------------------------------------------- 
+2025-01-09 16:00:26,127 INFO: *****Epoch 23 train***** 
+2025-01-09 16:02:28,325 INFO: train Loss: 0.5960 - Accuracy: 0.6828 - Precision: 0.6829 - Recall: 0.6828 - F1 Score: 0.6828 
+2025-01-09 16:02:35,130 INFO: val Loss: 0.5818 - val Accuracy: 0.6818 - val Precision: 0.6833 - val Recall: 0.6818 - val F1 Score: 0.6825 
+2025-01-09 16:02:35,320 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 16:02:35,470 INFO: -------------------------------------------------- 
+2025-01-09 16:02:35,472 INFO: *****Epoch 24 train***** 
+2025-01-09 16:04:37,680 INFO: train Loss: 0.5783 - Accuracy: 0.7010 - Precision: 0.7011 - Recall: 0.7010 - F1 Score: 0.7010 
+2025-01-09 16:04:44,295 INFO: val Loss: 0.6038 - val Accuracy: 0.7182 - val Precision: 0.7285 - val Recall: 0.7182 - val F1 Score: 0.6901 
+2025-01-09 16:04:44,474 INFO: Best model saved with accuracy: 0.7182 
+2025-01-09 16:04:44,623 INFO: -------------------------------------------------- 
+2025-01-09 16:04:44,625 INFO: *****Epoch 25 train***** 
+2025-01-09 16:06:46,863 INFO: train Loss: 0.5895 - Accuracy: 0.6848 - Precision: 0.6849 - Recall: 0.6848 - F1 Score: 0.6849 
+2025-01-09 16:06:53,526 INFO: val Loss: 0.6213 - val Accuracy: 0.6273 - val Precision: 0.6326 - val Recall: 0.6273 - val F1 Score: 0.6295 
+2025-01-09 16:06:53,720 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 16:06:53,874 INFO: -------------------------------------------------- 
+2025-01-09 16:06:53,876 INFO: *****Epoch 26 train***** 
+2025-01-09 16:08:55,804 INFO: train Loss: 0.5921 - Accuracy: 0.6859 - Precision: 0.6859 - Recall: 0.6859 - F1 Score: 0.6858 
+2025-01-09 16:09:02,516 INFO: val Loss: 0.5942 - val Accuracy: 0.6818 - val Precision: 0.6730 - val Recall: 0.6818 - val F1 Score: 0.6726 
+2025-01-09 16:09:02,703 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 16:09:02,851 INFO: -------------------------------------------------- 
+2025-01-09 16:09:02,854 INFO: *****Epoch 27 train***** 
+2025-01-09 16:11:04,782 INFO: train Loss: 0.5787 - Accuracy: 0.6949 - Precision: 0.6962 - Recall: 0.6949 - F1 Score: 0.6943 
+2025-01-09 16:11:11,535 INFO: val Loss: 0.6270 - val Accuracy: 0.6818 - val Precision: 0.6779 - val Recall: 0.6818 - val F1 Score: 0.6794 
+2025-01-09 16:11:11,705 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 16:11:11,853 INFO: -------------------------------------------------- 
+2025-01-09 16:11:11,855 INFO: *****Epoch 28 train***** 
+2025-01-09 16:13:13,929 INFO: train Loss: 0.5826 - Accuracy: 0.7061 - Precision: 0.7063 - Recall: 0.7061 - F1 Score: 0.7060 
+2025-01-09 16:13:20,625 INFO: val Loss: 0.5923 - val Accuracy: 0.6364 - val Precision: 0.6475 - val Recall: 0.6364 - val F1 Score: 0.6401 
+2025-01-09 16:13:20,804 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 16:13:20,952 INFO: -------------------------------------------------- 
+2025-01-09 16:13:20,954 INFO: *****Epoch 29 train***** 
+2025-01-09 16:15:23,845 INFO: train Loss: 0.5667 - Accuracy: 0.6909 - Precision: 0.6928 - Recall: 0.6909 - F1 Score: 0.6899 
+2025-01-09 16:15:30,570 INFO: val Loss: 0.6639 - val Accuracy: 0.6909 - val Precision: 0.7523 - val Recall: 0.6909 - val F1 Score: 0.6932 
+2025-01-09 16:15:30,745 INFO: Best model saved with accuracy: 0.6909 
+2025-01-09 16:15:30,896 INFO: -------------------------------------------------- 
+2025-01-09 16:15:30,898 INFO: *****Epoch 30 train***** 
+2025-01-09 16:17:33,448 INFO: train Loss: 0.5726 - Accuracy: 0.6990 - Precision: 0.7004 - Recall: 0.6990 - F1 Score: 0.6986 
+2025-01-09 16:17:40,131 INFO: val Loss: 0.5885 - val Accuracy: 0.6909 - val Precision: 0.6939 - val Recall: 0.6909 - val F1 Score: 0.6922 
+2025-01-09 16:17:40,318 INFO: Best model saved with accuracy: 0.6909 
+2025-01-09 16:17:40,468 INFO: -------------------------------------------------- 
+2025-01-09 16:17:40,470 INFO: *****Epoch 31 train***** 
+2025-01-09 16:19:42,816 INFO: train Loss: 0.5753 - Accuracy: 0.6980 - Precision: 0.6980 - Recall: 0.6980 - F1 Score: 0.6979 
+2025-01-09 16:19:49,767 INFO: val Loss: 0.6435 - val Accuracy: 0.6636 - val Precision: 0.7190 - val Recall: 0.6636 - val F1 Score: 0.6666 
+2025-01-09 16:19:49,939 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 16:19:50,087 INFO: -------------------------------------------------- 
+2025-01-09 16:19:50,089 INFO: *****Epoch 32 train***** 
+2025-01-09 16:21:52,529 INFO: train Loss: 0.5599 - Accuracy: 0.7091 - Precision: 0.7093 - Recall: 0.7091 - F1 Score: 0.7089 
+2025-01-09 16:21:59,304 INFO: val Loss: 0.6188 - val Accuracy: 0.6727 - val Precision: 0.6675 - val Recall: 0.6727 - val F1 Score: 0.6692 
+2025-01-09 16:21:59,495 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 16:21:59,655 INFO: -------------------------------------------------- 
+2025-01-09 16:21:59,658 INFO: *****Epoch 33 train***** 
+2025-01-09 16:24:00,734 INFO: train Loss: 0.5637 - Accuracy: 0.7030 - Precision: 0.7033 - Recall: 0.7030 - F1 Score: 0.7028 
+2025-01-09 16:24:07,360 INFO: val Loss: 0.6807 - val Accuracy: 0.6545 - val Precision: 0.7135 - val Recall: 0.6545 - val F1 Score: 0.6571 
+2025-01-09 16:24:07,537 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 16:24:07,687 INFO: -------------------------------------------------- 
+2025-01-09 16:24:07,689 INFO: *****Epoch 34 train***** 
+2025-01-09 16:26:09,702 INFO: train Loss: 0.5534 - Accuracy: 0.7212 - Precision: 0.7238 - Recall: 0.7212 - F1 Score: 0.7202 
+2025-01-09 16:26:16,491 INFO: val Loss: 0.5843 - val Accuracy: 0.6455 - val Precision: 0.6359 - val Recall: 0.6455 - val F1 Score: 0.6380 
+2025-01-09 16:26:16,660 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 16:26:16,816 INFO: -------------------------------------------------- 
+2025-01-09 16:26:16,819 INFO: *****Epoch 35 train***** 
+2025-01-09 16:28:19,017 INFO: train Loss: 0.5404 - Accuracy: 0.7303 - Precision: 0.7305 - Recall: 0.7303 - F1 Score: 0.7302 
+2025-01-09 16:28:25,755 INFO: val Loss: 0.6965 - val Accuracy: 0.6727 - val Precision: 0.7523 - val Recall: 0.6727 - val F1 Score: 0.6727 
+2025-01-09 16:28:25,936 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 16:28:26,090 INFO: -------------------------------------------------- 
+2025-01-09 16:28:26,092 INFO: *****Epoch 36 train***** 
+2025-01-09 16:30:28,029 INFO: train Loss: 0.5359 - Accuracy: 0.7152 - Precision: 0.7152 - Recall: 0.7152 - F1 Score: 0.7152 
+2025-01-09 16:30:34,793 INFO: val Loss: 0.5286 - val Accuracy: 0.7364 - val Precision: 0.7316 - val Recall: 0.7364 - val F1 Score: 0.7308 
+2025-01-09 16:30:34,987 INFO: Best model saved with accuracy: 0.7364 
+2025-01-09 16:30:35,138 INFO: -------------------------------------------------- 
+2025-01-09 16:30:35,141 INFO: *****Epoch 37 train***** 
+2025-01-09 16:32:37,392 INFO: train Loss: 0.5274 - Accuracy: 0.7253 - Precision: 0.7252 - Recall: 0.7253 - F1 Score: 0.7252 
+2025-01-09 16:32:44,024 INFO: val Loss: 0.6148 - val Accuracy: 0.7000 - val Precision: 0.7170 - val Recall: 0.7000 - val F1 Score: 0.7039 
+2025-01-09 16:32:44,200 INFO: Best model saved with accuracy: 0.7000 
+2025-01-09 16:32:44,349 INFO: -------------------------------------------------- 
+2025-01-09 16:32:44,352 INFO: *****Epoch 38 train***** 
+2025-01-09 16:34:49,143 INFO: train Loss: 0.5510 - Accuracy: 0.7202 - Precision: 0.7220 - Recall: 0.7202 - F1 Score: 0.7195 
+2025-01-09 16:34:56,069 INFO: val Loss: 0.6203 - val Accuracy: 0.6545 - val Precision: 0.6655 - val Recall: 0.6545 - val F1 Score: 0.6581 
+2025-01-09 16:34:56,255 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 16:34:56,404 INFO: -------------------------------------------------- 
+2025-01-09 16:34:56,406 INFO: *****Epoch 39 train***** 
+2025-01-09 16:37:00,294 INFO: train Loss: 0.5584 - Accuracy: 0.7162 - Precision: 0.7163 - Recall: 0.7162 - F1 Score: 0.7162 
+2025-01-09 16:37:07,049 INFO: val Loss: 0.6671 - val Accuracy: 0.6455 - val Precision: 0.6586 - val Recall: 0.6455 - val F1 Score: 0.6495 
+2025-01-09 16:37:07,226 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 16:37:07,379 INFO: -------------------------------------------------- 
+2025-01-09 16:37:07,381 INFO: *****Epoch 40 train***** 
+2025-01-09 16:39:09,820 INFO: train Loss: 0.5491 - Accuracy: 0.7121 - Precision: 0.7145 - Recall: 0.7121 - F1 Score: 0.7111 
+2025-01-09 16:39:16,487 INFO: val Loss: 0.6704 - val Accuracy: 0.7091 - val Precision: 0.7469 - val Recall: 0.7091 - val F1 Score: 0.7130 
+2025-01-09 16:39:16,668 INFO: Best model saved with accuracy: 0.7091 
+2025-01-09 16:39:16,818 INFO: -------------------------------------------------- 
+2025-01-09 16:39:16,820 INFO: *****Epoch 41 train***** 
+2025-01-09 16:41:22,234 INFO: train Loss: 0.5422 - Accuracy: 0.7091 - Precision: 0.7098 - Recall: 0.7091 - F1 Score: 0.7090 
+2025-01-09 16:41:29,213 INFO: val Loss: 0.6402 - val Accuracy: 0.7000 - val Precision: 0.7412 - val Recall: 0.7000 - val F1 Score: 0.7038 
+2025-01-09 16:41:29,387 INFO: Best model saved with accuracy: 0.7000 
+2025-01-09 16:41:29,542 INFO: -------------------------------------------------- 
+2025-01-09 16:41:29,545 INFO: *****Epoch 42 train***** 
+2025-01-09 16:43:36,790 INFO: train Loss: 0.5240 - Accuracy: 0.7263 - Precision: 0.7265 - Recall: 0.7263 - F1 Score: 0.7261 
+2025-01-09 16:43:43,881 INFO: val Loss: 0.6736 - val Accuracy: 0.6545 - val Precision: 0.6615 - val Recall: 0.6545 - val F1 Score: 0.6572 
+2025-01-09 16:43:44,109 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 16:43:44,260 INFO: -------------------------------------------------- 
+2025-01-09 16:43:44,262 INFO: *****Epoch 43 train***** 
+2025-01-09 16:45:52,350 INFO: train Loss: 0.5445 - Accuracy: 0.7232 - Precision: 0.7248 - Recall: 0.7232 - F1 Score: 0.7226 
+2025-01-09 16:45:59,517 INFO: val Loss: 0.5864 - val Accuracy: 0.6818 - val Precision: 0.6866 - val Recall: 0.6818 - val F1 Score: 0.6837 
+2025-01-09 16:45:59,706 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 16:45:59,864 INFO: -------------------------------------------------- 
+2025-01-09 16:45:59,866 INFO: *****Epoch 44 train***** 
+2025-01-09 16:48:06,115 INFO: train Loss: 0.5079 - Accuracy: 0.7465 - Precision: 0.7467 - Recall: 0.7465 - F1 Score: 0.7464 
+2025-01-09 16:48:13,034 INFO: val Loss: 0.6413 - val Accuracy: 0.6818 - val Precision: 0.6804 - val Recall: 0.6818 - val F1 Score: 0.6811 
+2025-01-09 16:48:13,202 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 16:48:13,358 INFO: -------------------------------------------------- 
+2025-01-09 16:48:13,360 INFO: *****Epoch 45 train***** 
+2025-01-09 16:50:29,804 INFO: train Loss: 0.5286 - Accuracy: 0.7434 - Precision: 0.7434 - Recall: 0.7434 - F1 Score: 0.7434 
+2025-01-09 16:50:37,745 INFO: val Loss: 0.6106 - val Accuracy: 0.7364 - val Precision: 0.7643 - val Recall: 0.7364 - val F1 Score: 0.7401 
+2025-01-09 16:50:37,937 INFO: Best model saved with accuracy: 0.7364 
+2025-01-09 16:50:38,097 INFO: -------------------------------------------------- 
+2025-01-09 16:50:38,099 INFO: *****Epoch 46 train***** 
+2025-01-09 16:52:52,772 INFO: train Loss: 0.5283 - Accuracy: 0.7152 - Precision: 0.7164 - Recall: 0.7152 - F1 Score: 0.7146 
+2025-01-09 16:53:00,377 INFO: val Loss: 0.7293 - val Accuracy: 0.6273 - val Precision: 0.6195 - val Recall: 0.6273 - val F1 Score: 0.6221 
+2025-01-09 16:53:00,562 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 16:53:00,714 INFO: -------------------------------------------------- 
+2025-01-09 16:53:00,716 INFO: *****Epoch 47 train***** 
+2025-01-09 16:55:08,974 INFO: train Loss: 0.5223 - Accuracy: 0.7384 - Precision: 0.7385 - Recall: 0.7384 - F1 Score: 0.7383 
+2025-01-09 16:55:16,137 INFO: val Loss: 0.6068 - val Accuracy: 0.7091 - val Precision: 0.7067 - val Recall: 0.7091 - val F1 Score: 0.7077 
+2025-01-09 16:55:16,319 INFO: Best model saved with accuracy: 0.7091 
+2025-01-09 16:55:16,476 INFO: -------------------------------------------------- 
+2025-01-09 16:55:16,479 INFO: *****Epoch 48 train***** 
+2025-01-09 16:57:24,333 INFO: train Loss: 0.5135 - Accuracy: 0.7505 - Precision: 0.7505 - Recall: 0.7505 - F1 Score: 0.7505 
+2025-01-09 16:57:31,392 INFO: val Loss: 0.6530 - val Accuracy: 0.6909 - val Precision: 0.7219 - val Recall: 0.6909 - val F1 Score: 0.6953 
+2025-01-09 16:57:31,581 INFO: Best model saved with accuracy: 0.6909 
+2025-01-09 16:57:31,733 INFO: -------------------------------------------------- 
+2025-01-09 16:57:31,736 INFO: *****Epoch 49 train***** 
+2025-01-09 16:59:39,090 INFO: train Loss: 0.5346 - Accuracy: 0.7202 - Precision: 0.7204 - Recall: 0.7202 - F1 Score: 0.7201 
+2025-01-09 16:59:46,333 INFO: val Loss: 0.6531 - val Accuracy: 0.6364 - val Precision: 0.6398 - val Recall: 0.6364 - val F1 Score: 0.6379 
+2025-01-09 16:59:46,512 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 16:59:46,664 INFO: -------------------------------------------------- 
+2025-01-09 16:59:46,666 INFO: *****Epoch 50 train***** 
+2025-01-09 17:01:54,827 INFO: train Loss: 0.5267 - Accuracy: 0.7303 - Precision: 0.7306 - Recall: 0.7303 - F1 Score: 0.7302 
+2025-01-09 17:02:01,985 INFO: val Loss: 0.6162 - val Accuracy: 0.6818 - val Precision: 0.6903 - val Recall: 0.6818 - val F1 Score: 0.6847 
+2025-01-09 17:02:02,159 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 17:02:02,315 INFO: -------------------------------------------------- 
+2025-01-09 17:02:02,318 INFO: *****Epoch 51 train***** 
+2025-01-09 17:04:10,024 INFO: train Loss: 0.5217 - Accuracy: 0.7253 - Precision: 0.7253 - Recall: 0.7253 - F1 Score: 0.7253 
+2025-01-09 17:04:17,256 INFO: val Loss: 0.7137 - val Accuracy: 0.6455 - val Precision: 0.6338 - val Recall: 0.6455 - val F1 Score: 0.6352 
+2025-01-09 17:04:17,437 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 17:04:17,594 INFO: -------------------------------------------------- 
+2025-01-09 17:04:17,596 INFO: *****Epoch 52 train***** 
+2025-01-09 17:06:25,574 INFO: train Loss: 0.5005 - Accuracy: 0.7636 - Precision: 0.7645 - Recall: 0.7636 - F1 Score: 0.7634 
+2025-01-09 17:06:32,748 INFO: val Loss: 0.6765 - val Accuracy: 0.6636 - val Precision: 0.6686 - val Recall: 0.6636 - val F1 Score: 0.6656 
+2025-01-09 17:06:32,929 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 17:06:33,080 INFO: -------------------------------------------------- 
+2025-01-09 17:06:33,082 INFO: *****Epoch 53 train***** 
+2025-01-09 17:08:40,734 INFO: train Loss: 0.5101 - Accuracy: 0.7404 - Precision: 0.7405 - Recall: 0.7404 - F1 Score: 0.7404 
+2025-01-09 17:08:47,794 INFO: val Loss: 0.5728 - val Accuracy: 0.6455 - val Precision: 0.6734 - val Recall: 0.6455 - val F1 Score: 0.6505 
+2025-01-09 17:08:47,981 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 17:08:48,134 INFO: -------------------------------------------------- 
+2025-01-09 17:08:48,136 INFO: *****Epoch 54 train***** 
+2025-01-09 17:10:56,496 INFO: train Loss: 0.5148 - Accuracy: 0.7485 - Precision: 0.7487 - Recall: 0.7485 - F1 Score: 0.7484 
+2025-01-09 17:11:03,667 INFO: val Loss: 0.6429 - val Accuracy: 0.6818 - val Precision: 0.6945 - val Recall: 0.6818 - val F1 Score: 0.6854 
+2025-01-09 17:11:03,849 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 17:11:04,001 INFO: -------------------------------------------------- 
+2025-01-09 17:11:04,003 INFO: *****Epoch 55 train***** 
+2025-01-09 17:13:09,639 INFO: train Loss: 0.4978 - Accuracy: 0.7485 - Precision: 0.7487 - Recall: 0.7485 - F1 Score: 0.7484 
+2025-01-09 17:13:16,450 INFO: val Loss: 0.7712 - val Accuracy: 0.5727 - val Precision: 0.5869 - val Recall: 0.5727 - val F1 Score: 0.5776 
+2025-01-09 17:13:16,638 INFO: Best model saved with accuracy: 0.5727 
+2025-01-09 17:13:16,787 INFO: -------------------------------------------------- 
+2025-01-09 17:13:16,789 INFO: *****Epoch 56 train***** 
+2025-01-09 17:15:22,574 INFO: train Loss: 0.5151 - Accuracy: 0.7465 - Precision: 0.7465 - Recall: 0.7465 - F1 Score: 0.7464 
+2025-01-09 17:15:29,607 INFO: val Loss: 0.6496 - val Accuracy: 0.6364 - val Precision: 0.6332 - val Recall: 0.6364 - val F1 Score: 0.6346 
+2025-01-09 17:15:29,792 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 17:15:29,941 INFO: -------------------------------------------------- 
+2025-01-09 17:15:29,944 INFO: *****Epoch 57 train***** 
+2025-01-09 17:17:35,359 INFO: train Loss: 0.5021 - Accuracy: 0.7444 - Precision: 0.7446 - Recall: 0.7444 - F1 Score: 0.7444 
+2025-01-09 17:17:42,260 INFO: val Loss: 0.6276 - val Accuracy: 0.6636 - val Precision: 0.6766 - val Recall: 0.6636 - val F1 Score: 0.6674 
+2025-01-09 17:17:42,447 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 17:17:42,601 INFO: -------------------------------------------------- 
+2025-01-09 17:17:42,603 INFO: *****Epoch 58 train***** 
+2025-01-09 17:19:48,127 INFO: train Loss: 0.4918 - Accuracy: 0.7636 - Precision: 0.7642 - Recall: 0.7636 - F1 Score: 0.7635 
+2025-01-09 17:19:54,872 INFO: val Loss: 0.7356 - val Accuracy: 0.6818 - val Precision: 0.7159 - val Recall: 0.6818 - val F1 Score: 0.6862 
+2025-01-09 17:19:55,043 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 17:19:55,193 INFO: -------------------------------------------------- 
+2025-01-09 17:19:55,195 INFO: *****Epoch 59 train***** 
+2025-01-09 17:22:00,866 INFO: train Loss: 0.4737 - Accuracy: 0.7727 - Precision: 0.7728 - Recall: 0.7727 - F1 Score: 0.7727 
+2025-01-09 17:22:07,805 INFO: val Loss: 0.6400 - val Accuracy: 0.6455 - val Precision: 0.6319 - val Recall: 0.6455 - val F1 Score: 0.6320 
+2025-01-09 17:22:07,986 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 17:22:08,136 INFO: -------------------------------------------------- 
+2025-01-09 17:22:08,139 INFO: *****Epoch 60 train***** 
+2025-01-09 17:24:14,050 INFO: train Loss: 0.4580 - Accuracy: 0.7828 - Precision: 0.7845 - Recall: 0.7828 - F1 Score: 0.7824 
+2025-01-09 17:24:21,152 INFO: val Loss: 0.7405 - val Accuracy: 0.6818 - val Precision: 0.6945 - val Recall: 0.6818 - val F1 Score: 0.6854 
+2025-01-09 17:24:21,331 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 17:24:21,481 INFO: -------------------------------------------------- 
+2025-01-09 17:24:21,483 INFO: *****Epoch 61 train***** 
+2025-01-09 17:26:27,013 INFO: train Loss: 0.4802 - Accuracy: 0.7697 - Precision: 0.7697 - Recall: 0.7697 - F1 Score: 0.7697 
+2025-01-09 17:26:34,088 INFO: val Loss: 0.7077 - val Accuracy: 0.5909 - val Precision: 0.5928 - val Recall: 0.5909 - val F1 Score: 0.5918 
+2025-01-09 17:26:34,267 INFO: Best model saved with accuracy: 0.5909 
+2025-01-09 17:26:34,462 INFO: -------------------------------------------------- 
+2025-01-09 17:26:34,464 INFO: *****Epoch 62 train***** 
+2025-01-09 17:28:41,176 INFO: train Loss: 0.4774 - Accuracy: 0.7626 - Precision: 0.7627 - Recall: 0.7626 - F1 Score: 0.7626 
+2025-01-09 17:28:48,269 INFO: val Loss: 0.7155 - val Accuracy: 0.6091 - val Precision: 0.6228 - val Recall: 0.6091 - val F1 Score: 0.6135 
+2025-01-09 17:28:48,452 INFO: Best model saved with accuracy: 0.6091 
+2025-01-09 17:28:48,602 INFO: -------------------------------------------------- 
+2025-01-09 17:28:48,604 INFO: *****Epoch 63 train***** 
+2025-01-09 17:30:55,143 INFO: train Loss: 0.4798 - Accuracy: 0.7586 - Precision: 0.7586 - Recall: 0.7586 - F1 Score: 0.7586 
+2025-01-09 17:31:02,208 INFO: val Loss: 0.6690 - val Accuracy: 0.6364 - val Precision: 0.6616 - val Recall: 0.6364 - val F1 Score: 0.6415 
+2025-01-09 17:31:02,392 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 17:31:02,546 INFO: -------------------------------------------------- 
+2025-01-09 17:31:02,548 INFO: *****Epoch 64 train***** 
+2025-01-09 17:33:08,482 INFO: train Loss: 0.4796 - Accuracy: 0.7727 - Precision: 0.7731 - Recall: 0.7727 - F1 Score: 0.7726 
+2025-01-09 17:33:15,465 INFO: val Loss: 0.8570 - val Accuracy: 0.6091 - val Precision: 0.5888 - val Recall: 0.6091 - val F1 Score: 0.5904 
+2025-01-09 17:33:15,650 INFO: Best model saved with accuracy: 0.6091 
+2025-01-09 17:33:15,799 INFO: -------------------------------------------------- 
+2025-01-09 17:33:15,801 INFO: *****Epoch 65 train***** 
+2025-01-09 17:35:20,662 INFO: train Loss: 0.4886 - Accuracy: 0.7657 - Precision: 0.7659 - Recall: 0.7657 - F1 Score: 0.7656 
+2025-01-09 17:35:27,518 INFO: val Loss: 0.7685 - val Accuracy: 0.5909 - val Precision: 0.6188 - val Recall: 0.5909 - val F1 Score: 0.5967 
+2025-01-09 17:35:27,696 INFO: Best model saved with accuracy: 0.5909 
+2025-01-09 17:35:27,849 INFO: -------------------------------------------------- 
+2025-01-09 17:35:27,851 INFO: *****Epoch 66 train***** 
+2025-01-09 17:37:33,588 INFO: train Loss: 0.4906 - Accuracy: 0.7556 - Precision: 0.7560 - Recall: 0.7556 - F1 Score: 0.7554 
+2025-01-09 17:37:40,516 INFO: val Loss: 0.7150 - val Accuracy: 0.6364 - val Precision: 0.6475 - val Recall: 0.6364 - val F1 Score: 0.6401 
+2025-01-09 17:37:40,751 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 17:37:40,941 INFO: -------------------------------------------------- 
+2025-01-09 17:37:40,943 INFO: *****Epoch 67 train***** 
+2025-01-09 17:39:46,577 INFO: train Loss: 0.4755 - Accuracy: 0.7657 - Precision: 0.7658 - Recall: 0.7657 - F1 Score: 0.7657 
+2025-01-09 17:39:53,402 INFO: val Loss: 0.7213 - val Accuracy: 0.6273 - val Precision: 0.6167 - val Recall: 0.6273 - val F1 Score: 0.6195 
+2025-01-09 17:39:53,574 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 17:39:53,725 INFO: -------------------------------------------------- 
+2025-01-09 17:39:53,727 INFO: *****Epoch 68 train***** 
+2025-01-09 17:41:59,922 INFO: train Loss: 0.4360 - Accuracy: 0.7869 - Precision: 0.7875 - Recall: 0.7869 - F1 Score: 0.7867 
+2025-01-09 17:42:06,834 INFO: val Loss: 0.9201 - val Accuracy: 0.6545 - val Precision: 0.6915 - val Recall: 0.6545 - val F1 Score: 0.6592 
+2025-01-09 17:42:07,019 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 17:42:07,174 INFO: -------------------------------------------------- 
+2025-01-09 17:42:07,176 INFO: *****Epoch 69 train***** 
+2025-01-09 17:44:13,273 INFO: train Loss: 0.4655 - Accuracy: 0.7808 - Precision: 0.7812 - Recall: 0.7808 - F1 Score: 0.7807 
+2025-01-09 17:44:20,207 INFO: val Loss: 0.7558 - val Accuracy: 0.6182 - val Precision: 0.6339 - val Recall: 0.6182 - val F1 Score: 0.6229 
+2025-01-09 17:44:20,387 INFO: Best model saved with accuracy: 0.6182 
+2025-01-09 17:44:20,540 INFO: -------------------------------------------------- 
+2025-01-09 17:44:20,542 INFO: *****Epoch 70 train***** 
+2025-01-09 17:46:25,455 INFO: train Loss: 0.4555 - Accuracy: 0.7909 - Precision: 0.7910 - Recall: 0.7909 - F1 Score: 0.7909 
+2025-01-09 17:46:32,277 INFO: val Loss: 0.7118 - val Accuracy: 0.6545 - val Precision: 0.6445 - val Recall: 0.6545 - val F1 Score: 0.6460 
+2025-01-09 17:46:32,461 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 17:46:32,615 INFO: -------------------------------------------------- 
+2025-01-09 17:46:32,617 INFO: *****Epoch 71 train***** 
+2025-01-09 17:48:38,611 INFO: train Loss: 0.4631 - Accuracy: 0.7808 - Precision: 0.7808 - Recall: 0.7808 - F1 Score: 0.7808 
+2025-01-09 17:48:45,530 INFO: val Loss: 0.8968 - val Accuracy: 0.5818 - val Precision: 0.6026 - val Recall: 0.5818 - val F1 Score: 0.5875 
+2025-01-09 17:48:45,716 INFO: Best model saved with accuracy: 0.5818 
+2025-01-09 17:48:45,865 INFO: -------------------------------------------------- 
+2025-01-09 17:48:45,868 INFO: *****Epoch 72 train***** 
+2025-01-09 17:50:51,977 INFO: train Loss: 0.4667 - Accuracy: 0.7788 - Precision: 0.7794 - Recall: 0.7788 - F1 Score: 0.7786 
+2025-01-09 17:50:58,920 INFO: val Loss: 0.7340 - val Accuracy: 0.6455 - val Precision: 0.6439 - val Recall: 0.6455 - val F1 Score: 0.6446 
+2025-01-09 17:50:59,091 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 17:50:59,259 INFO: -------------------------------------------------- 
+2025-01-09 17:50:59,262 INFO: *****Epoch 73 train***** 
+2025-01-09 17:53:05,340 INFO: train Loss: 0.4528 - Accuracy: 0.7657 - Precision: 0.7657 - Recall: 0.7657 - F1 Score: 0.7657 
+2025-01-09 17:53:12,336 INFO: val Loss: 1.0351 - val Accuracy: 0.6182 - val Precision: 0.6607 - val Recall: 0.6182 - val F1 Score: 0.6227 
+2025-01-09 17:53:12,565 INFO: Best model saved with accuracy: 0.6182 
+2025-01-09 17:53:12,722 INFO: -------------------------------------------------- 
+2025-01-09 17:53:12,724 INFO: *****Epoch 74 train***** 
+2025-01-09 17:55:15,479 INFO: train Loss: 0.4467 - Accuracy: 0.7818 - Precision: 0.7818 - Recall: 0.7818 - F1 Score: 0.7818 
+2025-01-09 17:55:22,272 INFO: val Loss: 0.7933 - val Accuracy: 0.6636 - val Precision: 0.6766 - val Recall: 0.6636 - val F1 Score: 0.6674 
+2025-01-09 17:55:22,450 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 17:55:22,605 INFO: -------------------------------------------------- 
+2025-01-09 17:55:22,608 INFO: *****Epoch 75 train***** 
+2025-01-09 17:57:24,220 INFO: train Loss: 0.4571 - Accuracy: 0.7828 - Precision: 0.7829 - Recall: 0.7828 - F1 Score: 0.7828 
+2025-01-09 17:57:30,954 INFO: val Loss: 0.9189 - val Accuracy: 0.6273 - val Precision: 0.6884 - val Recall: 0.6273 - val F1 Score: 0.6294 
+2025-01-09 17:57:31,137 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 17:57:31,286 INFO: -------------------------------------------------- 
+2025-01-09 17:57:31,288 INFO: *****Epoch 76 train***** 
+2025-01-09 17:59:33,962 INFO: train Loss: 0.4221 - Accuracy: 0.7970 - Precision: 0.7975 - Recall: 0.7970 - F1 Score: 0.7968 
+2025-01-09 17:59:40,571 INFO: val Loss: 0.8380 - val Accuracy: 0.6636 - val Precision: 0.6652 - val Recall: 0.6636 - val F1 Score: 0.6644 
+2025-01-09 17:59:40,749 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 17:59:40,899 INFO: -------------------------------------------------- 
+2025-01-09 17:59:40,901 INFO: *****Epoch 77 train***** 
+2025-01-09 18:01:42,376 INFO: train Loss: 0.4453 - Accuracy: 0.7869 - Precision: 0.7870 - Recall: 0.7869 - F1 Score: 0.7869 
+2025-01-09 18:01:48,998 INFO: val Loss: 0.8898 - val Accuracy: 0.6000 - val Precision: 0.6899 - val Recall: 0.6000 - val F1 Score: 0.5960 
+2025-01-09 18:01:49,178 INFO: Best model saved with accuracy: 0.6000 
+2025-01-09 18:01:49,344 INFO: -------------------------------------------------- 
+2025-01-09 18:01:49,346 INFO: *****Epoch 78 train***** 
+2025-01-09 18:03:51,122 INFO: train Loss: 0.4285 - Accuracy: 0.7970 - Precision: 0.7972 - Recall: 0.7970 - F1 Score: 0.7970 
+2025-01-09 18:03:57,971 INFO: val Loss: 0.7196 - val Accuracy: 0.6455 - val Precision: 0.6383 - val Recall: 0.6455 - val F1 Score: 0.6405 
+2025-01-09 18:03:58,160 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 18:03:58,311 INFO: -------------------------------------------------- 
+2025-01-09 18:03:58,313 INFO: *****Epoch 79 train***** 
+2025-01-09 18:06:00,450 INFO: train Loss: 0.4221 - Accuracy: 0.7919 - Precision: 0.7919 - Recall: 0.7919 - F1 Score: 0.7919 
+2025-01-09 18:06:07,284 INFO: val Loss: 0.9046 - val Accuracy: 0.6636 - val Precision: 0.6508 - val Recall: 0.6636 - val F1 Score: 0.6438 
+2025-01-09 18:06:07,461 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 18:06:07,623 INFO: -------------------------------------------------- 
+2025-01-09 18:06:07,625 INFO: *****Epoch 80 train***** 
+2025-01-09 18:08:09,459 INFO: train Loss: 0.4153 - Accuracy: 0.8121 - Precision: 0.8121 - Recall: 0.8121 - F1 Score: 0.8121 
+2025-01-09 18:08:16,172 INFO: val Loss: 0.8015 - val Accuracy: 0.6455 - val Precision: 0.6586 - val Recall: 0.6455 - val F1 Score: 0.6495 
+2025-01-09 18:08:16,349 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 18:08:16,496 INFO: -------------------------------------------------- 
+2025-01-09 18:08:16,498 INFO: *****Epoch 81 train***** 
+2025-01-09 18:10:18,423 INFO: train Loss: 0.4451 - Accuracy: 0.7919 - Precision: 0.7919 - Recall: 0.7919 - F1 Score: 0.7919 
+2025-01-09 18:10:25,174 INFO: val Loss: 0.7195 - val Accuracy: 0.6364 - val Precision: 0.6435 - val Recall: 0.6364 - val F1 Score: 0.6391 
+2025-01-09 18:10:25,361 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 18:10:25,511 INFO: -------------------------------------------------- 
+2025-01-09 18:10:25,514 INFO: *****Epoch 82 train***** 
+2025-01-09 18:12:27,529 INFO: train Loss: 0.4624 - Accuracy: 0.7778 - Precision: 0.7779 - Recall: 0.7778 - F1 Score: 0.7777 
+2025-01-09 18:12:34,206 INFO: val Loss: 0.8759 - val Accuracy: 0.6545 - val Precision: 0.6516 - val Recall: 0.6545 - val F1 Score: 0.6528 
+2025-01-09 18:12:34,382 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 18:12:34,531 INFO: -------------------------------------------------- 
+2025-01-09 18:12:34,533 INFO: *****Epoch 83 train***** 
+2025-01-09 18:14:36,527 INFO: train Loss: 0.4246 - Accuracy: 0.8010 - Precision: 0.8010 - Recall: 0.8010 - F1 Score: 0.8010 
+2025-01-09 18:14:43,199 INFO: val Loss: 0.8658 - val Accuracy: 0.5636 - val Precision: 0.5758 - val Recall: 0.5636 - val F1 Score: 0.5681 
+2025-01-09 18:14:43,369 INFO: Best model saved with accuracy: 0.5636 
+2025-01-09 18:14:43,517 INFO: -------------------------------------------------- 
+2025-01-09 18:14:43,520 INFO: *****Epoch 84 train***** 
+2025-01-09 18:16:45,470 INFO: train Loss: 0.4026 - Accuracy: 0.8071 - Precision: 0.8079 - Recall: 0.8071 - F1 Score: 0.8070 
+2025-01-09 18:16:52,060 INFO: val Loss: 0.8939 - val Accuracy: 0.5909 - val Precision: 0.5750 - val Recall: 0.5909 - val F1 Score: 0.5791 
+2025-01-09 18:16:52,247 INFO: Best model saved with accuracy: 0.5909 
+2025-01-09 18:16:52,402 INFO: -------------------------------------------------- 
+2025-01-09 18:16:52,405 INFO: *****Epoch 85 train***** 
+2025-01-09 18:18:55,257 INFO: train Loss: 0.4152 - Accuracy: 0.8192 - Precision: 0.8193 - Recall: 0.8192 - F1 Score: 0.8192 
+2025-01-09 18:19:02,016 INFO: val Loss: 0.8091 - val Accuracy: 0.6636 - val Precision: 0.7041 - val Recall: 0.6636 - val F1 Score: 0.6679 
+2025-01-09 18:19:02,199 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 18:19:02,385 INFO: -------------------------------------------------- 
+2025-01-09 18:19:02,387 INFO: *****Epoch 86 train***** 
+2025-01-09 18:21:03,586 INFO: train Loss: 0.3941 - Accuracy: 0.8202 - Precision: 0.8202 - Recall: 0.8202 - F1 Score: 0.8202 
+2025-01-09 18:21:10,263 INFO: val Loss: 0.9998 - val Accuracy: 0.6091 - val Precision: 0.6424 - val Recall: 0.6091 - val F1 Score: 0.6145 
+2025-01-09 18:21:10,442 INFO: Best model saved with accuracy: 0.6091 
+2025-01-09 18:21:10,636 INFO: -------------------------------------------------- 
+2025-01-09 18:21:10,639 INFO: *****Epoch 87 train***** 
+2025-01-09 18:23:12,984 INFO: train Loss: 0.4140 - Accuracy: 0.8182 - Precision: 0.8183 - Recall: 0.8182 - F1 Score: 0.8182 
+2025-01-09 18:23:19,635 INFO: val Loss: 0.9644 - val Accuracy: 0.6364 - val Precision: 0.6276 - val Recall: 0.6364 - val F1 Score: 0.6301 
+2025-01-09 18:23:19,823 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 18:23:19,971 INFO: -------------------------------------------------- 
+2025-01-09 18:23:19,974 INFO: *****Epoch 88 train***** 
+2025-01-09 18:25:22,141 INFO: train Loss: 0.3929 - Accuracy: 0.8303 - Precision: 0.8305 - Recall: 0.8303 - F1 Score: 0.8302 
+2025-01-09 18:25:28,857 INFO: val Loss: 0.8230 - val Accuracy: 0.6455 - val Precision: 0.6681 - val Recall: 0.6455 - val F1 Score: 0.6504 
+2025-01-09 18:25:29,033 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 18:25:29,183 INFO: -------------------------------------------------- 
+2025-01-09 18:25:29,185 INFO: *****Epoch 89 train***** 
+2025-01-09 18:27:31,663 INFO: train Loss: 0.4087 - Accuracy: 0.8061 - Precision: 0.8063 - Recall: 0.8061 - F1 Score: 0.8061 
+2025-01-09 18:27:38,377 INFO: val Loss: 0.8089 - val Accuracy: 0.5636 - val Precision: 0.5801 - val Recall: 0.5636 - val F1 Score: 0.5690 
+2025-01-09 18:27:38,562 INFO: Best model saved with accuracy: 0.5636 
+2025-01-09 18:27:38,710 INFO: -------------------------------------------------- 
+2025-01-09 18:27:38,711 INFO: *****Epoch 90 train***** 
+2025-01-09 18:29:40,258 INFO: train Loss: 0.4109 - Accuracy: 0.8030 - Precision: 0.8031 - Recall: 0.8030 - F1 Score: 0.8030 
+2025-01-09 18:29:47,051 INFO: val Loss: 0.7736 - val Accuracy: 0.6364 - val Precision: 0.6398 - val Recall: 0.6364 - val F1 Score: 0.6379 
+2025-01-09 18:29:47,225 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 18:29:47,376 INFO: -------------------------------------------------- 
+2025-01-09 18:29:47,379 INFO: *****Epoch 91 train***** 
+2025-01-09 18:31:48,830 INFO: train Loss: 0.3971 - Accuracy: 0.8232 - Precision: 0.8236 - Recall: 0.8232 - F1 Score: 0.8232 
+2025-01-09 18:31:55,799 INFO: val Loss: 0.8284 - val Accuracy: 0.6455 - val Precision: 0.6792 - val Recall: 0.6455 - val F1 Score: 0.6503 
+2025-01-09 18:31:55,981 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 18:31:56,145 INFO: -------------------------------------------------- 
+2025-01-09 18:31:56,147 INFO: *****Epoch 92 train***** 
+2025-01-09 18:33:58,374 INFO: train Loss: 0.3991 - Accuracy: 0.8253 - Precision: 0.8260 - Recall: 0.8253 - F1 Score: 0.8252 
+2025-01-09 18:34:05,267 INFO: val Loss: 0.8318 - val Accuracy: 0.6909 - val Precision: 0.7284 - val Recall: 0.6909 - val F1 Score: 0.6950 
+2025-01-09 18:34:05,457 INFO: Best model saved with accuracy: 0.6909 
+2025-01-09 18:34:05,616 INFO: -------------------------------------------------- 
+2025-01-09 18:34:05,618 INFO: *****Epoch 93 train***** 
+2025-01-09 18:36:06,957 INFO: train Loss: 0.3863 - Accuracy: 0.8333 - Precision: 0.8334 - Recall: 0.8333 - F1 Score: 0.8333 
+2025-01-09 18:36:13,706 INFO: val Loss: 0.7746 - val Accuracy: 0.6545 - val Precision: 0.6915 - val Recall: 0.6545 - val F1 Score: 0.6592 
+2025-01-09 18:36:13,877 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 18:36:14,032 INFO: -------------------------------------------------- 
+2025-01-09 18:36:14,034 INFO: *****Epoch 94 train***** 
+2025-01-09 18:38:16,460 INFO: train Loss: 0.3824 - Accuracy: 0.8162 - Precision: 0.8164 - Recall: 0.8162 - F1 Score: 0.8161 
+2025-01-09 18:38:23,128 INFO: val Loss: 1.0063 - val Accuracy: 0.6273 - val Precision: 0.6884 - val Recall: 0.6273 - val F1 Score: 0.6294 
+2025-01-09 18:38:23,309 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 18:38:23,459 INFO: -------------------------------------------------- 
+2025-01-09 18:38:23,461 INFO: *****Epoch 95 train***** 
+2025-01-09 18:40:26,035 INFO: train Loss: 0.3672 - Accuracy: 0.8404 - Precision: 0.8408 - Recall: 0.8404 - F1 Score: 0.8403 
+2025-01-09 18:40:32,694 INFO: val Loss: 0.8876 - val Accuracy: 0.6818 - val Precision: 0.6945 - val Recall: 0.6818 - val F1 Score: 0.6854 
+2025-01-09 18:40:32,867 INFO: Best model saved with accuracy: 0.6818 
+2025-01-09 18:40:33,059 INFO: -------------------------------------------------- 
+2025-01-09 18:40:33,061 INFO: *****Epoch 96 train***** 
+2025-01-09 18:42:34,419 INFO: train Loss: 0.3754 - Accuracy: 0.8141 - Precision: 0.8143 - Recall: 0.8141 - F1 Score: 0.8141 
+2025-01-09 18:42:41,122 INFO: val Loss: 0.8736 - val Accuracy: 0.6727 - val Precision: 0.6964 - val Recall: 0.6727 - val F1 Score: 0.6114 
+2025-01-09 18:42:41,352 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 18:42:41,505 INFO: -------------------------------------------------- 
+2025-01-09 18:42:41,507 INFO: *****Epoch 97 train***** 
+2025-01-09 18:44:44,384 INFO: train Loss: 0.3655 - Accuracy: 0.8283 - Precision: 0.8284 - Recall: 0.8283 - F1 Score: 0.8282 
+2025-01-09 18:44:51,076 INFO: val Loss: 0.9679 - val Accuracy: 0.6727 - val Precision: 0.6618 - val Recall: 0.6727 - val F1 Score: 0.6587 
+2025-01-09 18:44:51,256 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 18:44:51,405 INFO: -------------------------------------------------- 
+2025-01-09 18:44:51,407 INFO: *****Epoch 98 train***** 
+2025-01-09 18:46:53,164 INFO: train Loss: 0.3686 - Accuracy: 0.8404 - Precision: 0.8404 - Recall: 0.8404 - F1 Score: 0.8404 
+2025-01-09 18:46:59,822 INFO: val Loss: 0.9056 - val Accuracy: 0.6364 - val Precision: 0.6795 - val Recall: 0.6364 - val F1 Score: 0.6407 
+2025-01-09 18:47:00,001 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 18:47:00,150 INFO: -------------------------------------------------- 
+2025-01-09 18:47:00,153 INFO: *****Epoch 99 train***** 
+2025-01-09 18:49:02,115 INFO: train Loss: 0.3909 - Accuracy: 0.8333 - Precision: 0.8335 - Recall: 0.8333 - F1 Score: 0.8333 
+2025-01-09 18:49:08,794 INFO: val Loss: 0.7954 - val Accuracy: 0.6182 - val Precision: 0.6545 - val Recall: 0.6182 - val F1 Score: 0.6233 
+2025-01-09 18:49:08,967 INFO: Best model saved with accuracy: 0.6182 
+2025-01-09 18:49:09,116 INFO: -------------------------------------------------- 
+2025-01-09 18:49:09,118 INFO: *****Epoch 100 train***** 
+2025-01-09 18:51:11,079 INFO: train Loss: 0.3558 - Accuracy: 0.8495 - Precision: 0.8499 - Recall: 0.8495 - F1 Score: 0.8495 
+2025-01-09 18:51:17,822 INFO: val Loss: 0.9115 - val Accuracy: 0.6273 - val Precision: 0.6500 - val Recall: 0.6273 - val F1 Score: 0.6325 
+2025-01-09 18:51:18,001 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 18:51:18,152 INFO: -------------------------------------------------- 
+2025-01-09 18:51:18,154 INFO: *****Epoch 101 train***** 
+2025-01-09 18:53:20,049 INFO: train Loss: 0.3448 - Accuracy: 0.8525 - Precision: 0.8526 - Recall: 0.8525 - F1 Score: 0.8525 
+2025-01-09 18:53:26,884 INFO: val Loss: 0.9516 - val Accuracy: 0.6727 - val Precision: 0.7036 - val Recall: 0.6727 - val F1 Score: 0.6773 
+2025-01-09 18:53:27,059 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 18:53:27,208 INFO: -------------------------------------------------- 
+2025-01-09 18:53:27,211 INFO: *****Epoch 102 train***** 
+2025-01-09 18:55:29,551 INFO: train Loss: 0.3906 - Accuracy: 0.8273 - Precision: 0.8275 - Recall: 0.8273 - F1 Score: 0.8272 
+2025-01-09 18:55:36,440 INFO: val Loss: 0.8155 - val Accuracy: 0.6000 - val Precision: 0.6160 - val Recall: 0.6000 - val F1 Score: 0.6049 
+2025-01-09 18:55:36,613 INFO: Best model saved with accuracy: 0.6000 
+2025-01-09 18:55:36,763 INFO: -------------------------------------------------- 
+2025-01-09 18:55:36,766 INFO: *****Epoch 103 train***** 
+2025-01-09 18:57:39,363 INFO: train Loss: 0.3328 - Accuracy: 0.8455 - Precision: 0.8455 - Recall: 0.8455 - F1 Score: 0.8455 
+2025-01-09 18:57:46,075 INFO: val Loss: 0.9794 - val Accuracy: 0.5727 - val Precision: 0.6296 - val Recall: 0.5727 - val F1 Score: 0.5752 
+2025-01-09 18:57:46,249 INFO: Best model saved with accuracy: 0.5727 
+2025-01-09 18:57:46,401 INFO: -------------------------------------------------- 
+2025-01-09 18:57:46,403 INFO: *****Epoch 104 train***** 
+2025-01-09 18:59:48,528 INFO: train Loss: 0.3724 - Accuracy: 0.8364 - Precision: 0.8364 - Recall: 0.8364 - F1 Score: 0.8364 
+2025-01-09 18:59:55,305 INFO: val Loss: 0.7150 - val Accuracy: 0.6545 - val Precision: 0.6854 - val Recall: 0.6545 - val F1 Score: 0.6594 
+2025-01-09 18:59:55,476 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 18:59:55,626 INFO: -------------------------------------------------- 
+2025-01-09 18:59:55,628 INFO: *****Epoch 105 train***** 
+2025-01-09 19:01:57,454 INFO: train Loss: 0.2989 - Accuracy: 0.8717 - Precision: 0.8719 - Recall: 0.8717 - F1 Score: 0.8717 
+2025-01-09 19:02:04,143 INFO: val Loss: 1.1786 - val Accuracy: 0.6727 - val Precision: 0.6626 - val Recall: 0.6727 - val F1 Score: 0.6618 
+2025-01-09 19:02:04,364 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 19:02:04,512 INFO: -------------------------------------------------- 
+2025-01-09 19:02:04,514 INFO: *****Epoch 106 train***** 
+2025-01-09 19:04:07,422 INFO: train Loss: 0.3828 - Accuracy: 0.8313 - Precision: 0.8313 - Recall: 0.8313 - F1 Score: 0.8313 
+2025-01-09 19:04:14,114 INFO: val Loss: 0.9653 - val Accuracy: 0.6273 - val Precision: 0.6806 - val Recall: 0.6273 - val F1 Score: 0.6305 
+2025-01-09 19:04:14,296 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 19:04:14,444 INFO: -------------------------------------------------- 
+2025-01-09 19:04:14,447 INFO: *****Epoch 107 train***** 
+2025-01-09 19:06:17,350 INFO: train Loss: 0.3572 - Accuracy: 0.8505 - Precision: 0.8506 - Recall: 0.8505 - F1 Score: 0.8505 
+2025-01-09 19:06:24,228 INFO: val Loss: 0.8166 - val Accuracy: 0.6364 - val Precision: 0.6475 - val Recall: 0.6364 - val F1 Score: 0.6401 
+2025-01-09 19:06:24,449 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 19:06:24,610 INFO: -------------------------------------------------- 
+2025-01-09 19:06:24,613 INFO: *****Epoch 108 train***** 
+2025-01-09 19:08:26,772 INFO: train Loss: 0.3249 - Accuracy: 0.8606 - Precision: 0.8606 - Recall: 0.8606 - F1 Score: 0.8606 
+2025-01-09 19:08:33,418 INFO: val Loss: 0.8836 - val Accuracy: 0.6091 - val Precision: 0.6614 - val Recall: 0.6091 - val F1 Score: 0.6125 
+2025-01-09 19:08:33,592 INFO: Best model saved with accuracy: 0.6091 
+2025-01-09 19:08:33,742 INFO: -------------------------------------------------- 
+2025-01-09 19:08:33,744 INFO: *****Epoch 109 train***** 
+2025-01-09 19:10:35,489 INFO: train Loss: 0.3485 - Accuracy: 0.8515 - Precision: 0.8515 - Recall: 0.8515 - F1 Score: 0.8515 
+2025-01-09 19:10:42,093 INFO: val Loss: 0.8333 - val Accuracy: 0.6455 - val Precision: 0.6734 - val Recall: 0.6455 - val F1 Score: 0.6505 
+2025-01-09 19:10:42,268 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 19:10:42,418 INFO: -------------------------------------------------- 
+2025-01-09 19:10:42,420 INFO: *****Epoch 110 train***** 
+2025-01-09 19:12:44,291 INFO: train Loss: 0.3385 - Accuracy: 0.8515 - Precision: 0.8517 - Recall: 0.8515 - F1 Score: 0.8515 
+2025-01-09 19:12:50,922 INFO: val Loss: 0.8784 - val Accuracy: 0.6455 - val Precision: 0.6409 - val Recall: 0.6455 - val F1 Score: 0.6427 
+2025-01-09 19:12:51,104 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 19:12:51,297 INFO: -------------------------------------------------- 
+2025-01-09 19:12:51,299 INFO: *****Epoch 111 train***** 
+2025-01-09 19:14:53,258 INFO: train Loss: 0.3427 - Accuracy: 0.8535 - Precision: 0.8535 - Recall: 0.8535 - F1 Score: 0.8535 
+2025-01-09 19:14:59,841 INFO: val Loss: 0.7244 - val Accuracy: 0.6545 - val Precision: 0.6698 - val Recall: 0.6545 - val F1 Score: 0.6588 
+2025-01-09 19:15:00,016 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 19:15:00,211 INFO: -------------------------------------------------- 
+2025-01-09 19:15:00,213 INFO: *****Epoch 112 train***** 
+2025-01-09 19:17:01,820 INFO: train Loss: 0.3341 - Accuracy: 0.8465 - Precision: 0.8465 - Recall: 0.8465 - F1 Score: 0.8465 
+2025-01-09 19:17:08,451 INFO: val Loss: 0.9359 - val Accuracy: 0.6273 - val Precision: 0.6500 - val Recall: 0.6273 - val F1 Score: 0.6325 
+2025-01-09 19:17:08,628 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 19:17:08,790 INFO: -------------------------------------------------- 
+2025-01-09 19:17:08,793 INFO: *****Epoch 113 train***** 
+2025-01-09 19:19:11,173 INFO: train Loss: 0.2857 - Accuracy: 0.8768 - Precision: 0.8782 - Recall: 0.8768 - F1 Score: 0.8767 
+2025-01-09 19:19:17,818 INFO: val Loss: 1.0651 - val Accuracy: 0.7091 - val Precision: 0.7192 - val Recall: 0.7091 - val F1 Score: 0.7121 
+2025-01-09 19:19:17,986 INFO: Best model saved with accuracy: 0.7091 
+2025-01-09 19:19:18,135 INFO: -------------------------------------------------- 
+2025-01-09 19:19:18,137 INFO: *****Epoch 114 train***** 
+2025-01-09 19:21:20,108 INFO: train Loss: 0.3505 - Accuracy: 0.8414 - Precision: 0.8414 - Recall: 0.8414 - F1 Score: 0.8414 
+2025-01-09 19:21:26,896 INFO: val Loss: 0.7699 - val Accuracy: 0.6727 - val Precision: 0.6727 - val Recall: 0.6727 - val F1 Score: 0.6727 
+2025-01-09 19:21:27,136 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 19:21:27,289 INFO: -------------------------------------------------- 
+2025-01-09 19:21:27,291 INFO: *****Epoch 115 train***** 
+2025-01-09 19:23:28,490 INFO: train Loss: 0.3207 - Accuracy: 0.8545 - Precision: 0.8546 - Recall: 0.8545 - F1 Score: 0.8545 
+2025-01-09 19:23:35,205 INFO: val Loss: 1.0732 - val Accuracy: 0.5909 - val Precision: 0.6297 - val Recall: 0.5909 - val F1 Score: 0.5961 
+2025-01-09 19:23:35,413 INFO: Best model saved with accuracy: 0.5909 
+2025-01-09 19:23:35,562 INFO: -------------------------------------------------- 
+2025-01-09 19:23:35,564 INFO: *****Epoch 116 train***** 
+2025-01-09 19:25:37,852 INFO: train Loss: 0.3125 - Accuracy: 0.8667 - Precision: 0.8667 - Recall: 0.8667 - F1 Score: 0.8667 
+2025-01-09 19:25:44,482 INFO: val Loss: 0.8848 - val Accuracy: 0.6455 - val Precision: 0.6586 - val Recall: 0.6455 - val F1 Score: 0.6495 
+2025-01-09 19:25:44,703 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 19:25:44,852 INFO: -------------------------------------------------- 
+2025-01-09 19:25:44,854 INFO: *****Epoch 117 train***** 
+2025-01-09 19:27:46,821 INFO: train Loss: 0.2899 - Accuracy: 0.8727 - Precision: 0.8728 - Recall: 0.8727 - F1 Score: 0.8727 
+2025-01-09 19:27:53,568 INFO: val Loss: 1.0601 - val Accuracy: 0.6364 - val Precision: 0.6435 - val Recall: 0.6364 - val F1 Score: 0.6391 
+2025-01-09 19:27:53,745 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 19:27:53,940 INFO: -------------------------------------------------- 
+2025-01-09 19:27:53,943 INFO: *****Epoch 118 train***** 
+2025-01-09 19:29:55,953 INFO: train Loss: 0.2994 - Accuracy: 0.8778 - Precision: 0.8779 - Recall: 0.8778 - F1 Score: 0.8778 
+2025-01-09 19:30:02,640 INFO: val Loss: 1.0270 - val Accuracy: 0.6545 - val Precision: 0.6445 - val Recall: 0.6545 - val F1 Score: 0.6460 
+2025-01-09 19:30:02,820 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 19:30:02,967 INFO: -------------------------------------------------- 
+2025-01-09 19:30:02,970 INFO: *****Epoch 119 train***** 
+2025-01-09 19:32:05,546 INFO: train Loss: 0.2927 - Accuracy: 0.8758 - Precision: 0.8758 - Recall: 0.8758 - F1 Score: 0.8758 
+2025-01-09 19:32:12,233 INFO: val Loss: 0.9820 - val Accuracy: 0.6273 - val Precision: 0.6452 - val Recall: 0.6273 - val F1 Score: 0.6321 
+2025-01-09 19:32:12,414 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 19:32:12,562 INFO: -------------------------------------------------- 
+2025-01-09 19:32:12,565 INFO: *****Epoch 120 train***** 
+2025-01-09 19:34:15,045 INFO: train Loss: 0.3283 - Accuracy: 0.8626 - Precision: 0.8627 - Recall: 0.8626 - F1 Score: 0.8626 
+2025-01-09 19:34:21,743 INFO: val Loss: 0.8677 - val Accuracy: 0.6182 - val Precision: 0.6674 - val Recall: 0.6182 - val F1 Score: 0.6220 
+2025-01-09 19:34:21,925 INFO: Best model saved with accuracy: 0.6182 
+2025-01-09 19:34:22,119 INFO: -------------------------------------------------- 
+2025-01-09 19:34:22,121 INFO: *****Epoch 121 train***** 
+2025-01-09 19:36:24,042 INFO: train Loss: 0.2912 - Accuracy: 0.8768 - Precision: 0.8768 - Recall: 0.8768 - F1 Score: 0.8768 
+2025-01-09 19:36:30,844 INFO: val Loss: 1.0487 - val Accuracy: 0.6636 - val Precision: 0.6652 - val Recall: 0.6636 - val F1 Score: 0.6644 
+2025-01-09 19:36:31,019 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 19:36:31,175 INFO: -------------------------------------------------- 
+2025-01-09 19:36:31,177 INFO: *****Epoch 122 train***** 
+2025-01-09 19:38:33,025 INFO: train Loss: 0.2979 - Accuracy: 0.8636 - Precision: 0.8637 - Recall: 0.8636 - F1 Score: 0.8636 
+2025-01-09 19:38:39,730 INFO: val Loss: 1.0952 - val Accuracy: 0.6182 - val Precision: 0.6674 - val Recall: 0.6182 - val F1 Score: 0.6220 
+2025-01-09 19:38:39,916 INFO: Best model saved with accuracy: 0.6182 
+2025-01-09 19:38:40,065 INFO: -------------------------------------------------- 
+2025-01-09 19:38:40,067 INFO: *****Epoch 123 train***** 
+2025-01-09 19:40:42,337 INFO: train Loss: 0.2922 - Accuracy: 0.8788 - Precision: 0.8788 - Recall: 0.8788 - F1 Score: 0.8788 
+2025-01-09 19:40:48,976 INFO: val Loss: 0.9343 - val Accuracy: 0.6273 - val Precision: 0.6500 - val Recall: 0.6273 - val F1 Score: 0.6325 
+2025-01-09 19:40:49,154 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 19:40:49,306 INFO: -------------------------------------------------- 
+2025-01-09 19:40:49,308 INFO: *****Epoch 124 train***** 
+2025-01-09 19:42:50,938 INFO: train Loss: 0.2603 - Accuracy: 0.8970 - Precision: 0.8971 - Recall: 0.8970 - F1 Score: 0.8970 
+2025-01-09 19:42:57,629 INFO: val Loss: 0.9558 - val Accuracy: 0.6364 - val Precision: 0.6730 - val Recall: 0.6364 - val F1 Score: 0.6412 
+2025-01-09 19:42:57,800 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 19:42:57,949 INFO: -------------------------------------------------- 
+2025-01-09 19:42:57,951 INFO: *****Epoch 125 train***** 
+2025-01-09 19:45:00,246 INFO: train Loss: 0.3147 - Accuracy: 0.8687 - Precision: 0.8688 - Recall: 0.8687 - F1 Score: 0.8687 
+2025-01-09 19:45:06,994 INFO: val Loss: 0.8319 - val Accuracy: 0.7091 - val Precision: 0.7067 - val Recall: 0.7091 - val F1 Score: 0.7077 
+2025-01-09 19:45:07,172 INFO: Best model saved with accuracy: 0.7091 
+2025-01-09 19:45:07,322 INFO: -------------------------------------------------- 
+2025-01-09 19:45:07,324 INFO: *****Epoch 126 train***** 
+2025-01-09 19:47:09,833 INFO: train Loss: 0.2961 - Accuracy: 0.8677 - Precision: 0.8681 - Recall: 0.8677 - F1 Score: 0.8676 
+2025-01-09 19:47:16,425 INFO: val Loss: 1.1453 - val Accuracy: 0.5909 - val Precision: 0.6422 - val Recall: 0.5909 - val F1 Score: 0.5945 
+2025-01-09 19:47:16,613 INFO: Best model saved with accuracy: 0.5909 
+2025-01-09 19:47:16,764 INFO: -------------------------------------------------- 
+2025-01-09 19:47:16,766 INFO: *****Epoch 127 train***** 
+2025-01-09 19:49:19,438 INFO: train Loss: 0.2791 - Accuracy: 0.8808 - Precision: 0.8809 - Recall: 0.8808 - F1 Score: 0.8808 
+2025-01-09 19:49:26,076 INFO: val Loss: 0.8164 - val Accuracy: 0.6636 - val Precision: 0.6766 - val Recall: 0.6636 - val F1 Score: 0.6674 
+2025-01-09 19:49:26,258 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 19:49:26,407 INFO: -------------------------------------------------- 
+2025-01-09 19:49:26,409 INFO: *****Epoch 128 train***** 
+2025-01-09 19:51:28,575 INFO: train Loss: 0.2652 - Accuracy: 0.8919 - Precision: 0.8919 - Recall: 0.8919 - F1 Score: 0.8919 
+2025-01-09 19:51:35,186 INFO: val Loss: 0.9315 - val Accuracy: 0.6545 - val Precision: 0.6516 - val Recall: 0.6545 - val F1 Score: 0.6528 
+2025-01-09 19:51:35,357 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 19:51:35,506 INFO: -------------------------------------------------- 
+2025-01-09 19:51:35,508 INFO: *****Epoch 129 train***** 
+2025-01-09 19:53:37,560 INFO: train Loss: 0.2648 - Accuracy: 0.8838 - Precision: 0.8838 - Recall: 0.8838 - F1 Score: 0.8838 
+2025-01-09 19:53:44,286 INFO: val Loss: 1.3234 - val Accuracy: 0.5909 - val Precision: 0.6007 - val Recall: 0.5909 - val F1 Score: 0.5946 
+2025-01-09 19:53:44,467 INFO: Best model saved with accuracy: 0.5909 
+2025-01-09 19:53:44,637 INFO: -------------------------------------------------- 
+2025-01-09 19:53:44,639 INFO: *****Epoch 130 train***** 
+2025-01-09 19:55:46,704 INFO: train Loss: 0.2897 - Accuracy: 0.8838 - Precision: 0.8838 - Recall: 0.8838 - F1 Score: 0.8838 
+2025-01-09 19:55:53,340 INFO: val Loss: 0.8392 - val Accuracy: 0.6364 - val Precision: 0.6730 - val Recall: 0.6364 - val F1 Score: 0.6412 
+2025-01-09 19:55:53,517 INFO: Best model saved with accuracy: 0.6364 
+2025-01-09 19:55:53,720 INFO: -------------------------------------------------- 
+2025-01-09 19:55:53,722 INFO: *****Epoch 131 train***** 
+2025-01-09 19:57:56,668 INFO: train Loss: 0.2927 - Accuracy: 0.8747 - Precision: 0.8749 - Recall: 0.8747 - F1 Score: 0.8747 
+2025-01-09 19:58:03,444 INFO: val Loss: 0.9371 - val Accuracy: 0.6545 - val Precision: 0.6797 - val Recall: 0.6545 - val F1 Score: 0.6594 
+2025-01-09 19:58:03,626 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 19:58:03,781 INFO: -------------------------------------------------- 
+2025-01-09 19:58:03,783 INFO: *****Epoch 132 train***** 
+2025-01-09 20:00:06,390 INFO: train Loss: 0.2687 - Accuracy: 0.8798 - Precision: 0.8798 - Recall: 0.8798 - F1 Score: 0.8798 
+2025-01-09 20:00:13,102 INFO: val Loss: 0.7774 - val Accuracy: 0.7182 - val Precision: 0.7226 - val Recall: 0.7182 - val F1 Score: 0.7199 
+2025-01-09 20:00:13,280 INFO: Best model saved with accuracy: 0.7182 
+2025-01-09 20:00:13,428 INFO: -------------------------------------------------- 
+2025-01-09 20:00:13,430 INFO: *****Epoch 133 train***** 
+2025-01-09 20:02:16,393 INFO: train Loss: 0.2586 - Accuracy: 0.8838 - Precision: 0.8843 - Recall: 0.8838 - F1 Score: 0.8838 
+2025-01-09 20:02:23,115 INFO: val Loss: 1.0830 - val Accuracy: 0.6273 - val Precision: 0.6407 - val Recall: 0.6273 - val F1 Score: 0.6315 
+2025-01-09 20:02:23,288 INFO: Best model saved with accuracy: 0.6273 
+2025-01-09 20:02:23,438 INFO: -------------------------------------------------- 
+2025-01-09 20:02:23,441 INFO: *****Epoch 134 train***** 
+2025-01-09 20:04:25,557 INFO: train Loss: 0.2610 - Accuracy: 0.8909 - Precision: 0.8909 - Recall: 0.8909 - F1 Score: 0.8909 
+2025-01-09 20:04:32,151 INFO: val Loss: 1.0691 - val Accuracy: 0.6455 - val Precision: 0.6792 - val Recall: 0.6455 - val F1 Score: 0.6503 
+2025-01-09 20:04:32,330 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 20:04:32,479 INFO: -------------------------------------------------- 
+2025-01-09 20:04:32,481 INFO: *****Epoch 135 train***** 
+2025-01-09 20:06:34,714 INFO: train Loss: 0.2538 - Accuracy: 0.8828 - Precision: 0.8828 - Recall: 0.8828 - F1 Score: 0.8828 
+2025-01-09 20:06:41,433 INFO: val Loss: 1.1992 - val Accuracy: 0.6545 - val Precision: 0.7135 - val Recall: 0.6545 - val F1 Score: 0.6571 
+2025-01-09 20:06:41,617 INFO: Best model saved with accuracy: 0.6545 
+2025-01-09 20:06:41,769 INFO: -------------------------------------------------- 
+2025-01-09 20:06:41,771 INFO: *****Epoch 136 train***** 
+2025-01-09 20:08:45,064 INFO: train Loss: 0.2695 - Accuracy: 0.8818 - Precision: 0.8827 - Recall: 0.8818 - F1 Score: 0.8818 
+2025-01-09 20:08:51,959 INFO: val Loss: 1.0384 - val Accuracy: 0.6909 - val Precision: 0.6832 - val Recall: 0.6909 - val F1 Score: 0.6832 
+2025-01-09 20:08:52,150 INFO: Best model saved with accuracy: 0.6909 
+2025-01-09 20:08:52,333 INFO: -------------------------------------------------- 
+2025-01-09 20:08:52,335 INFO: *****Epoch 137 train***** 
+2025-01-09 20:10:55,001 INFO: train Loss: 0.2286 - Accuracy: 0.9000 - Precision: 0.9001 - Recall: 0.9000 - F1 Score: 0.9000 
+2025-01-09 20:11:01,678 INFO: val Loss: 1.1661 - val Accuracy: 0.6636 - val Precision: 0.6621 - val Recall: 0.6636 - val F1 Score: 0.6628 
+2025-01-09 20:11:01,861 INFO: Best model saved with accuracy: 0.6636 
+2025-01-09 20:11:02,061 INFO: -------------------------------------------------- 
+2025-01-09 20:11:02,064 INFO: *****Epoch 138 train***** 
+2025-01-09 20:13:04,946 INFO: train Loss: 0.2427 - Accuracy: 0.8949 - Precision: 0.8951 - Recall: 0.8949 - F1 Score: 0.8949 
+2025-01-09 20:13:11,695 INFO: val Loss: 1.3528 - val Accuracy: 0.5818 - val Precision: 0.5781 - val Recall: 0.5818 - val F1 Score: 0.5797 
+2025-01-09 20:13:11,873 INFO: Best model saved with accuracy: 0.5818 
+2025-01-09 20:13:12,021 INFO: -------------------------------------------------- 
+2025-01-09 20:13:12,023 INFO: *****Epoch 139 train***** 
+2025-01-09 20:15:14,368 INFO: train Loss: 0.2563 - Accuracy: 0.8848 - Precision: 0.8851 - Recall: 0.8848 - F1 Score: 0.8848 
+2025-01-09 20:15:21,002 INFO: val Loss: 1.1630 - val Accuracy: 0.6727 - val Precision: 0.6626 - val Recall: 0.6727 - val F1 Score: 0.6618 
+2025-01-09 20:15:21,178 INFO: Best model saved with accuracy: 0.6727 
+2025-01-09 20:15:21,336 INFO: -------------------------------------------------- 
+2025-01-09 20:15:21,338 INFO: *****Epoch 140 train***** 
+2025-01-09 20:17:23,919 INFO: train Loss: 0.2205 - Accuracy: 0.9081 - Precision: 0.9084 - Recall: 0.9081 - F1 Score: 0.9081 
+2025-01-09 20:17:30,605 INFO: val Loss: 1.4081 - val Accuracy: 0.6455 - val Precision: 0.6292 - val Recall: 0.6455 - val F1 Score: 0.6245 
+2025-01-09 20:17:30,779 INFO: Best model saved with accuracy: 0.6455 
+2025-01-09 20:17:30,956 INFO: -------------------------------------------------- 
+2025-01-09 20:17:30,959 INFO: *****Epoch 141 train***** 
