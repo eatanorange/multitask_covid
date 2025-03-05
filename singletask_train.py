@@ -8,9 +8,9 @@ writer = SummaryWriter(log_dir='runs/covid_experiment')
 
 
 ########################################################################################################################
-logger.info('Start training...')
+logger.info('加入dropout')
 batchsizes=32
-epochs=10
+epochs=200
 from model.singletask_resnet50 import model
 from dataset_covid import covid_train_dataset,covid_val_dataset
 covid_train_dataloader = DataLoader(covid_train_dataset, batch_size=batchsizes, shuffle=True)
